@@ -1,0 +1,2 @@
+# Calls "sync-mirror" (aka sync.sh) every 6 hours
+0 */6 * * * sync-mirror > /dev/stdout
